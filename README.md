@@ -11,18 +11,18 @@ An simple module to convert numbers to words in Golang for South Asian numbering
 1234       ->  one thousand two hundred and thirty four
 12345      ->  twelve thousand three hundred and forty five
 123456     ->  one lakh twenty three thousand four hundred and fifty six
-```
-# Usage
-
-```js
-const numWords = require('number2word')
-const amountInWords = numWords(12345) // twelve thousand three hundred and forty five
-```
-
-# Go
 
 
-_Note: This module only supports 9 digits input. A typical usecase for such convertion is in tax invoices or charts etc. For that more than 9 digits input is not very common (and also not very readable)._
+str := num2words.Convert(17) // outputs "seventeen"
+
+str := num2words.Convert(1024) // outputs "one thousand twenty four"
+
+str := num2words.Convert(-123) // outputs "minus one hundred twenty three"
+Convert number with " and " between number groups:
+
+str := num2words.ConvertAnd(514) // outputs "five hundred and fourteen"
+
+str := num2words.ConvertAnd(123) // outputs "one hundred and twenty three"
 
 # Contributing
 
