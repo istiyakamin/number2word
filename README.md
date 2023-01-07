@@ -1,10 +1,10 @@
 # number2word
 
-An simple module to convert numbers to words for South Asian numbering system. e.g. Two crore four lakh.
+An simple module to convert numbers to words in Golang for South Asian numbering system. e.g. Two crore four lakh.
 
 # Example
 
-```js
+```golang
 1          ->  one
 12         ->  twelve
 123        ->  one hundred and twenty three
@@ -12,14 +12,15 @@ An simple module to convert numbers to words for South Asian numbering system. e
 12345      ->  twelve thousand three hundred and forty five
 123456     ->  one lakh twenty three thousand four hundred and fifty six
 ```
-# Javascript
-
-## Usage
+# Usage
 
 ```js
 const numWords = require('number2word')
 const amountInWords = numWords(12345) // twelve thousand three hundred and forty five
 ```
+
+# Go
+
 
 _Note: This module only supports 9 digits input. A typical usecase for such convertion is in tax invoices or charts etc. For that more than 9 digits input is not very common (and also not very readable)._
 
