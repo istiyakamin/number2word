@@ -34,13 +34,6 @@ func main(){
 # Example
 
 ```golang
-1          ->  one
-12         ->  twelve
-123        ->  one hundred and twenty three
-1234       ->  one thousand two hundred and thirty four
-12345      ->  twelve thousand three hundred and forty five
-123456     ->  one lakh twenty three thousand four hundred and fifty six
-
 
 str := number2word.Convert(17) // outputs "seventeen"
 
