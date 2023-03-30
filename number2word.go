@@ -1,5 +1,8 @@
 package number2word
-import "math"
+
+import (
+	"math"
+)
 
 const groupsNumber int = 4
 
@@ -20,20 +23,20 @@ var _scaleNumbers = []string{
 type digitGroup int
 
 // Convert converts number into the words representation.
-func Convert(number int) string {
-	return convert(number, false)
+func Convert(number int) (string, error) {
+	return convertText(number, false)
 }
 
 // ConvertAnd converts number into the words representation
 // with " and " added between number groups.
-func ConvertAnd(number int) string {
-	return convert(number, true)
+func ConvertAnd(number int)  (string, error) {
+	return convertText(number, true)
 }
 
-func convert(number int, useAnd bool) string {
+func convertText(number int, useAnd bool) (string, error) {
 	// Zero rule
 	if number == 0 {
-		return _smallNumbers[0]
+		return _smallNumbers[0], nil
 	}
 
 	// Divide into three-digits group
@@ -71,7 +74,7 @@ func convert(number int, useAnd bool) string {
 		combined = "minus " + combined
 	}
 
-	return combined
+	return combined, nil
 }
 
 func intMod(x, y int) int {
