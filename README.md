@@ -42,16 +42,16 @@ func main(){
 123456     ->  one lakh twenty three thousand four hundred and fifty six
 
 
-str := num2words.Convert(17) // outputs "seventeen"
+str := number2word.Convert(17) // outputs "seventeen"
 
-str := num2words.Convert(1024) // outputs "one thousand twenty four"
+str := number2word.Convert(1024) // outputs "one thousand twenty four"
 
-str := num2words.Convert(-123) // outputs "minus one hundred twenty three"
+str := number2word.Convert(-123) // outputs "minus one hundred twenty three"
 Convert number with " and " between number groups:
 
-str := num2words.ConvertAnd(514) // outputs "five hundred and fourteen"
+str := number2word.ConvertAnd(514) // outputs "five hundred and fourteen"
 
-str := num2words.ConvertAnd(123) // outputs "one hundred and twenty three"
+str := number2word.ConvertAnd(123) // outputs "one hundred and twenty three"
 ```
 
 # Contributing
