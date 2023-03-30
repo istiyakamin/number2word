@@ -3,7 +3,7 @@
 An simple package to convert numbers to words in Golang for South Asian numbering system. e.g. Two crore four lakh.
 
 
-[![](https://github.com/istiyakaminsanto/number2word/workflows/go.yml/badge.svg?branch=master "test status")](https://github.com/go-gorm/gorm/actions)
+[![](https://github.com/istiyakaminsanto/number2word/actions/workflows/go.yml/badge.svg "test status")](https://github.com/istiyakaminsanto/number2word/actions) 
 ![test status](https://img.shields.io/github/go-mod/go-version/istiyakaminsanto/number2word?label=Go%20Version)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/istiyakaminsanto/number2word@v1.0.1)
