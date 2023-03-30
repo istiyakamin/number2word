@@ -1,7 +1,6 @@
 # number2word
 
-An simple package to convert numbers to words in Golang for South Asian numbering system. e.g. Two crore four lakh.
-
+An simple package to convert numbers to words in Golang.
 
 [![](https://github.com/istiyakaminsanto/number2word/actions/workflows/go.yml/badge.svg "test status")](https://github.com/istiyakaminsanto/number2word/actions) 
 ![test status](https://img.shields.io/github/go-mod/go-version/istiyakaminsanto/number2word?label=Go%20Version)
