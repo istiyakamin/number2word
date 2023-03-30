@@ -1,7 +1,6 @@
 package number2word
 import "math"
 
-// how many digit's groups to process
 const groupsNumber int = 4
 
 var _smallNumbers = []string{
