@@ -1,6 +1,35 @@
 # number2word
 
-An simple module to convert numbers to words in Golang for South Asian numbering system. e.g. Two crore four lakh.
+An simple package to convert numbers to words in Golang for South Asian numbering system. e.g. Two crore four lakh.
+
+```
+go get -u github.com/istiyakaminsanto/number2word
+```
+Import Packages 
+
+```
+import (
+	...
+	"github.com/istiyakaminsanto/number2word"
+  ...
+)
+```
+
+# Coded Example 
+
+```
+package main
+
+import (
+	"fmt"
+	"github.com/istiyakaminsanto/number2word"
+)
+
+func main(){
+	str := number2word.Convert(102547)
+	fmt.Println(str)
+}
+```
 
 # Example
 
@@ -28,3 +57,6 @@ str := num2words.ConvertAnd(123) // outputs "one hundred and twenty three"
 # Contributing
 
 In case you notice a bug, please open an issue mentioning the input that has caused an incorrect conversion.
+
+## Go to 
+(watch on pkg.go.dev)[https://pkg.go.dev/github.com/istiyakaminsanto/number2word]
