@@ -2,20 +2,19 @@
 
 An simple package to convert numbers to words in Golang.
 
-[![](https://github.com/istiyakaminsanto/number2word/actions/workflows/go.yml/badge.svg "test status")](https://github.com/istiyakaminsanto/number2word/actions) 
-![test status](https://img.shields.io/github/go-mod/go-version/istiyakaminsanto/number2word?label=Go%20Version)
+[![](https://github.com/istiyakamin/number2word/actions/workflows/go.yml/badge.svg "test status")](https://github.com/istiyakamin/number2word/actions) 
+![test status](https://img.shields.io/github/go-mod/go-version/istiyakamin/number2word?label=Go%20Version)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/istiyakaminsanto/number2word@v1.0.1)
+[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/istiyakamin/number2word@v1.0.1)
 ```
-go get -u github.com/istiyakaminsanto/number2word
+go get -u github.com/istiyakamin/number2word
 ```
 Import Packages 
-
 ```
 import (
 	...
-	"github.com/istiyakaminsanto/number2word"
-  ...
+	"github.com/istiyakamin/number2word"
+  	...
 )
 ```
 
@@ -26,7 +25,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/istiyakaminsanto/number2word"
+	"github.com/istiyakamin/number2word"
 )
 
 func main(){
@@ -56,4 +55,4 @@ str := number2word.ConvertAnd(123) // outputs "one hundred and twenty three"
 In case you notice a bug, please open an issue mentioning the input that has caused an incorrect conversion.
 
 ## Go to 
-(watch on pkg.go.dev)[https://pkg.go.dev/github.com/istiyakaminsanto/number2word]
+(watch on pkg.go.dev)[https://pkg.go.dev/github.com/istiyakamin/number2word]
