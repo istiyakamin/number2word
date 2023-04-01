@@ -1,6 +1,6 @@
 # number2word
 
-An simple package to convert numbers to words in Golang.
+A simple package to convert numbers to words in Golang.
 
 [![](https://github.com/istiyakamin/number2word/actions/workflows/go.yml/badge.svg "test status")](https://github.com/istiyakamin/number2word/actions) 
 ![test status](https://img.shields.io/github/go-mod/go-version/istiyakamin/number2word?label=Go%20Version)
